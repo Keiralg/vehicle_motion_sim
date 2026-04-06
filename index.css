@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.sim_container {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    background-color: #a7c4eb;
+    border-radius: 60px;
+}
+
+.sim_container .car {
+    height:15%;
+    width: 10%;
+    position: relative;
+    top: 70%;
+    left: 10%;
+    background-color: rgb(161, 53, 34);
+    border-radius: 15px;
+}
